@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Index page
+GET     /                           controllers.ApiController.index
+# Books by genre
+GET     /v1/genres/:id/books        controllers.ApiController.byGenre(id, offset: Int ?= 0, max: Int ?= 100, internal: Boolean ?= false)
+# Book creation
+POST    /v1/books                   controllers.ApiController.createBook()
+# Book updating
+PUT     /v1/books                   controllers.ApiController.updateBook(id)
+# Author creation
+POST    /v1/authors                 controllers.ApiController.createAuthor()
+# Author updating
+PUT     /v1/authors/:id             controllers.ApiController.updateAuthor(id)
+
+

@@ -1,0 +1,15 @@
+# Messages
+book.id=Illegal identifier of book
+book.name=Illegal name of book
+book.year=Illegal publishing year of book
+book.edition=Illegal edition number of book
+book.author=Illegal author of book
+book.genre=Illegal genres of book
+book.version=Outdated version of book
+
+author.id=Illegal identifier of author
+author.lastName=Illegal author's last name
+author.firstName=Illegal author's first name
+author.middleName=Illegal author's middle name
+author.version=Outdated version of author
+
